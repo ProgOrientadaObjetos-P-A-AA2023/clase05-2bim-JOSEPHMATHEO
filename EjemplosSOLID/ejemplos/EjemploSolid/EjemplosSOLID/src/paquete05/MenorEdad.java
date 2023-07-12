@@ -11,8 +11,11 @@ package paquete05;
  */
 public class MenorEdad extends Persona{
     
+    private Persona representante;
     public MenorEdad(String n){
         super(n, null);
+        
+        
     }
     
     @Override
